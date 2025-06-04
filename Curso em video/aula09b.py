@@ -7,7 +7,7 @@ print(frase[13:])
 print(frase[1:15])
 print(frase[1:15:2])
 print(frase[1::2])
-print(frase[::2])
+print(frase[::-1])
 
 print(frase.count('O')) #Vai retornar 0 pois não tem nesse exemplo a letra 'O' Maiuscula
 print(frase.upper().count('O')) #Vai retornar 3 pois ele transformou todas as letras em maiusculas e depois pediu para contar quantas vezes aparece 'O' maiusculo
