@@ -9,7 +9,7 @@ contador = 0
 soma = 0
 
 while num != 999:
-    num = int(input('Digite um núemro: '))
+    num = int(input('Digite um número: '))
     soma = soma + num
     contador += 1
     if num == 999:
